@@ -1,0 +1,26 @@
+{
+  "name": "magium/zend-configuration-helper",
+  "description": "A Zend View helper that allows you to directly reference Magium Configuration Manager settings in a View or Controller",
+  "minimum-stability": "stable",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Kevin Schroeder",
+      "email": "kschroeder@magiumlib.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Magium\\Zend\\Helper\\": "lib",
+      "Magium\\Zend\\Helper\\Tests\\": "tests"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7",
+    "zendframework/zend-view": "^2",
+    "zendframework/zend-mvc": "^2"
+  },
+  "require": {
+    "magium/configuration-manager": "^1"
+  }
+}
